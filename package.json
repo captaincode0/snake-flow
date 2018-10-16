@@ -1,0 +1,42 @@
+{
+  "name": "snake-flow-c0",
+  "version": "1.0.0",
+  "description": "Shows how i solve with flow and webpack the snake problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captaincode0/snake-flow.git"
+  },
+  "keywords": [
+    "flow",
+    "snake",
+    "js"
+  ],
+  "author": "captaincode0",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/captaincode0/snake-flow/issues"
+  },
+  "homepage": "https://github.com/captaincode0/snake-flow#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-flow": "^7.0.0",
+    "@babel/plugin-transform-flow-comments": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "flow-bin": "^0.83.0",
+    "flow-webpack-plugin": "^1.2.0",
+    "remove-comments-loader": "^0.1.2",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
